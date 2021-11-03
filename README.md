@@ -8,8 +8,8 @@ Du'a Jaradat
 
 ## Links and Resources
 
-- [Automation Code]()
-- [Pull Request]()
+- [Automation Code](https://github.com/duajaradat/automation/blob/automation/automation/filter.py)
+- [Pull Request](https://github.com/duajaradat/automation/pull/1)
 
 ---
 
