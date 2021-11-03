@@ -12,3 +12,11 @@ def test_phone_numbers():
     actual = phone_num(text)
 
     assert actual == expected
+
+def test_emails():
+    text ="danielletaylor@hotmail.com +1-178-383-0937x54779Thank appear test call in key set. Approach agree land him gas alone reach. Agent region book whose military traditional quite."
+
+    expected = ["danielletaylor@hotmail.com" ]
+    actual = email(text)
+
+    assert actual == expected    
