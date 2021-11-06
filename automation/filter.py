@@ -10,11 +10,11 @@ def phone_num(text):
     Arguments : text 
     retuns : list of phone_numbers 
     """
-    phone_pattern = r"[0-9-+x.()]{7,}"   
+    phone_pattern = r"\(?\d{3}\)?[-\s]?\d{3}[-\s]?\d{4}"   
     phone_numbers = []
 
     numbers=re.findall(phone_pattern, text)
-
+    
     for number in numbers:
         edited_number =number.replace(".","").replace("(","").replace(")","").replace("-","")
         if len(edited_number) == 10:
